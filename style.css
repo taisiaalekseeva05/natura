@@ -340,3 +340,14 @@ line-height: 23px;
 text-transform: capitalize;
 color: #FFFFFF;
 } */
+
+#pogekt-block{
+    position: absolute;
+width: 1199px;
+height: 250px;
+left: 121px;
+top: 2761px;
+
+background: #F6F6F6;
+border-radius: 30px;
+}
