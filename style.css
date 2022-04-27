@@ -87,6 +87,11 @@ box-sizing: border-box;
 
 #text-block-1 h1{
     font-size: 72px;
+    font-weight: 700;
+}
+
+#text-block-1 p{
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -101,7 +106,7 @@ box-sizing: border-box;
     height: 76px;
     padding: 15px;
     display: flex;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0px 0pz;
 }
 
 #search-body{
@@ -110,6 +115,8 @@ box-sizing: border-box;
     background-color: white;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 30px;
 }
 
 .header-el{
@@ -197,13 +204,16 @@ box-sizing: border-box;
 
 #info-chld-1{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
     margin: 0 175px;
 }
 
 #info-cards{
     /* background-color: blue; */
+    margin-top: 115px;
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 /* #info-images{
@@ -243,7 +253,7 @@ box-sizing: border-box;
 
 #card-1{
     width: 50%;
-    padding: 15%;
+    padding: 15px;
 }
 
 
@@ -282,13 +292,14 @@ box-sizing: border-box;
     margin: 0 175px;
 }
 
-/* #info-image-2{
-    background-color: bisque;
-} */
-/* 
+#info-image-2{
+    /* background-color: bisque; */
+    margin-top: 110px;
+}
+
 #img-3{
 
-} */
+}
 
 #img-group{
     width: 240px;
@@ -309,3 +320,23 @@ box-sizing: border-box;
 #g-img-3{
     margin-left: -20px;
 }
+
+/* .btn{
+    position: absolute;
+    width: 109px;
+    height: 23px;
+    left: 242px;
+    top: 2616px;
+}
+
+.btn h6{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-transform: capitalize;
+color: #FFFFFF;
+} */
